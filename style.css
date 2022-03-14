@@ -14,11 +14,10 @@ body {
 ---------------------*/
 .nav-bar {
     /* border: 1px solid red; */
-    width: 100%x;
+    width: 1280px;
     height: 100px;
     margin: 0 auto;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,5 +61,56 @@ body {
     background-color: #3366FF;
     color: #FFFFFF;
     margin-left: 30px;
+    border-radius: 10px;
+}
+
+/* ------------------
+    Pet Store Styles 
+---------------------*/
+.per-store-section {
+    background-color: #F7F5FD;
+}
+
+.pet-store-container {
+    /* border: 1px solid red; */
+    width: 1280px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.pet-store-container h1 {
+    /* border: 1px solid red; */
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 90px;
+    color: #2D2D2D;
+    margin: 0px;
+    margin-bottom: 30px
+}
+
+.pet-store-container p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #2D2D2D;
+    opacity: 0.5;
+    margin: 0px;
+    margin-bottom: 41px;
+}
+
+.pet-store-container a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    width: 203px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8D57E;
+    color: #2D2D2D;
     border-radius: 10px;
 }

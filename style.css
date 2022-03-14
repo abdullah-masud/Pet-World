@@ -188,3 +188,33 @@ body {
     font-weight: 400;
     opacity: 0.5;
 }
+
+/* -----------------------------
+    Testimonial Section Styles 
+-------------------------------*/
+
+.testimonial-section {
+    background-color: #ECE7FB;
+    /* border: 1px solid red; */
+}
+
+.testimonial-container {
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 1280px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.testimonial-comment h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.testimonial-comment p {
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.5;
+}

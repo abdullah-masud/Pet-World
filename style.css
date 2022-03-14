@@ -138,3 +138,18 @@ body {
 .video-container video {
     border-radius: 10px;
 }
+
+/* -------------------------
+    Sposner Section Styles 
+---------------------------*/
+
+.sponsers-section {
+    /* border: 1px solid red; */
+    width: 1280px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -68,11 +68,14 @@ body {
     Pet Store Styles 
 ---------------------*/
 .per-store-section {
+    /* border: 5px solid green; */
     background-color: #F7F5FD;
+    margin: 0 auto;
+
 }
 
 .pet-store-container {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 1280px;
     height: 600px;
     margin: 0 auto;

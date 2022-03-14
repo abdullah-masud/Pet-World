@@ -70,12 +70,10 @@ body {
 .per-store-section {
     /* border: 5px solid green; */
     background-color: #F7F5FD;
-    margin: 0 auto;
-
 }
 
 .pet-store-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 1280px;
     height: 600px;
     margin: 0 auto;
@@ -115,5 +113,28 @@ body {
     align-items: center;
     background-color: #F8D57E;
     color: #2D2D2D;
+    border-radius: 10px;
+}
+
+/* ----------------------
+    Video Section Styles 
+-------------------------*/
+
+.video-section {
+    /* border: 1px solid red; */
+    background-color: #F2FAF8;
+}
+
+.video-container {
+    /* border: 1px solid rgb(45, 21, 179); */
+    width: 1280px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container video {
     border-radius: 10px;
 }

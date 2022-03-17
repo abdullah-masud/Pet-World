@@ -14,7 +14,7 @@ body {
 ---------------------*/
 .nav-bar {
     /* border: 1px solid red; */
-    width: 1280px;
+    width: 1080px;
     height: 100px;
     margin: 0 auto;
     margin: 0 auto;
@@ -36,7 +36,7 @@ body {
     padding-right: 10px;
 }
 
-.log-in-sign-up {
+.login-signup {
     /* border: 1px solid aqua; */
     font-size: 18px;
     width: 251px;
@@ -46,12 +46,12 @@ body {
     align-items: center;
 }
 
-.log-in-sign-up a {
+.login-signup a {
     text-decoration: none;
     color: black;
 }
 
-.log-in-sign-up .log-in {
+.login-signup .log-in {
     /* border: 1px solid red; */
     width: 153px;
     height: 54px;
@@ -75,14 +75,17 @@ body {
 .pet-store-container {
     /* border: 1px solid red; */
     background-color: #F7F5FD;
-    width: 1280px;
+    width: 1080px;
     height: 600px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* overflow: hidden; */
 
 }
+
+
 
 .pet-store-container h1 {
     /* border: 1px solid red; */
@@ -147,7 +150,7 @@ body {
 
 .sponsers-section {
     /* border: 1px solid red; */
-    width: 1280px;
+    width: 1080px;
     height: 200px;
     margin: 0 auto;
     display: flex;
@@ -169,7 +172,7 @@ body {
 
 .feature-container {
     /* border: 1px solid red; */
-    width: 1280px;
+    width: 1080px;
     height: 500px;
     display: flex;
     align-items: center;
@@ -204,7 +207,7 @@ body {
     /* border: 1px solid red; */
     background-color: #ECE7FB;
     margin: 0 auto;
-    width: 1280px;
+    width: 1080px;
     height: 500px;
     display: flex;
     align-items: center;
@@ -220,4 +223,150 @@ body {
     font-size: 18px;
     font-weight: 400;
     opacity: 0.5;
+}
+
+/* -----------------------------
+    Contact us Section Styles 
+-------------------------------*/
+
+.contact-us-section {
+    /* border: 5px solid green; */
+    background-color: #F7F5FD;
+}
+
+.contact-us-container {
+    /* border: 1px solid red; */
+    background-color: #F7F5FD;
+    width: 1080px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contact-us-container h1 {
+    /* border: 1px solid red; */
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 90px;
+    color: #2D2D2D;
+    margin: 0px;
+    margin-bottom: 30px
+}
+
+.contact-us-container p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #2D2D2D;
+    opacity: 0.5;
+    margin: 0px;
+    margin-bottom: 41px;
+}
+
+.contact-us-container a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    width: 203px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8D57E;
+    color: #2D2D2D;
+    border-radius: 10px;
+}
+
+/* Mobile Resposive */
+@media only screen and (max-width: 688px) {
+
+    body,
+    html {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .pet-store-container {
+        /* border: 1px solid red; */
+        flex-direction: column;
+        margin-top: 60px;
+        width: 350px;
+        height: 940px;
+    }
+
+    .pet-store-container img {
+        /* margin-top: 30px; */
+        width: 350px;
+    }
+
+    .pet-store-container a {
+        width: 140px;
+    }
+
+    .video-container {
+        margin-top: 20px;
+        /* border: 1px solid red; */
+        width: 350px;
+        height: 210px;
+    }
+
+    .video-container video {
+        width: 330px;
+    }
+
+    .sponsers-section {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 290px;
+    }
+
+    .feature-container {
+        /* width: 350px; */
+        height: 1200px;
+        margin-top: 10px;
+        /* border: 1px solid red; */
+        flex-direction: column;
+    }
+
+    .testimonial-container {
+        flex-direction: column;
+        width: 350px;
+        /* border: 1px solid red; */
+        margin-top: 50px;
+        height: 900px;
+        text-align: center;
+    }
+
+    .testimonial-container img {
+        width: 300px;
+    }
+
+    .testimonial-comment img {
+        width: 100px;
+    }
+
+    .contact-us-container {
+        /* border: 1px solid red; */
+        flex-direction: column;
+        /* margin-top: 20px; */
+        padding-top: 30px;
+        width: 350px;
+        height: 810px;
+    }
+
+    .contact-us-container img {
+        /* margin-top: 30px; */
+        width: 350px;
+    }
+
+    .contact-us-container a {
+        width: 140px;
+    }
 }
